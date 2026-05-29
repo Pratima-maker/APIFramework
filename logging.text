@@ -1,0 +1,75 @@
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratima2@gmail.com",
+    "password": "secret123"
+}
+HTTP/1.1 200 OK
+Date: Thu, 28 May 2026 17:00:48 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 260
+ETag: W/"104-ofOoIfL6UpUeWP0tnia+hUlPDYI"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk5MzEsImVtYWlsIjoicHJhdGltYTJAZ21haWwuY29tIiwiaWF0IjoxNzc5OTg3NjQ4LCJleHAiOjE3ODA1OTI0NDh9.IaTGyzdl_3bS8lYZ0mmMTx0f1LPRSYhyreo4Bno7fqo",
+    "user": {
+        "id": 9931,
+        "email": "pratima2@gmail.com"
+    }
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pratima2@gmail.com",
+    "password": "secret123"
+}
+HTTP/1.1 200 OK
+Date: Thu, 28 May 2026 17:00:49 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 102
+ETag: W/"66-C8/j4rlgDdF3jii6OQXFHm7jNtc"
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "user": {
+        "userId": 9931,
+        "email": "pratima2@gmail.com",
+        "iat": 1779987648,
+        "exp": 1780592448
+    }
+}
